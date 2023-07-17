@@ -1,3 +1,10 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
 .spinner {
     display: inline-block;
     width: 40px;
