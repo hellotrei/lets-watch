@@ -12,7 +12,7 @@
   <p align="center">
     A simple web app to check all moview you love!
     <br />
-    <a href="https://letswatch.vercel.app"><strong>Link Web »</strong></a>
+    <a href="https://lets-watch-hellotrei.vercel.app/"><strong>Link Web »</strong></a>
     <br />
     <br />
   </p>
