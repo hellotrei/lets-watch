@@ -4,8 +4,10 @@ import { GridContainer } from '../../../shared/styles/GridContainer';
 import { useDispatch, useSelector } from "react-redux";
 import { unlikeMovie } from '../../movie/store/actions/moviesActions';
 import { MovieItem } from '../../movie/services/MoviesService';
+import { useTranslation } from 'react-i18next';
 
 export const MyList: React.FC = () => {
+    const { t } = useTranslation(['favorite']);
     const dispatch = useDispatch();
     const likedMovies = useSelector((state: any) => state.movies.likedMovies);
 
@@ -15,6 +17,7 @@ export const MyList: React.FC = () => {
 
     return (
         <GridContainer>
+            {likedMovies.length === 0 && <h2>{t('thereIsNoListFavorite')}</h2>}
             {likedMovies.map((movie: MovieItem) => (
                 <MovieThumb
                     key={movie.imdbID}
