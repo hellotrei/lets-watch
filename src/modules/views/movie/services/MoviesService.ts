@@ -46,8 +46,9 @@ export class MoviesService {
     static getWithParams(params: {
         s: string;
         type: string;
-    }): Promise<AxiosResponse<MovieResults>> {
-        return movieApi.get('/', { params });
+        page?: number;
+      }): Promise<AxiosResponse<MovieResults>> {
+        return movieApi.get<MovieResults>('/', { params: { ...params, page: params.page || 1 } });
     }
 
     static getById(id: string): Promise<AxiosResponse<MovieItemDetail>> {

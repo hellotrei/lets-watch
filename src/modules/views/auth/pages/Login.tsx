@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { accessToken } from '../store/actions/loginActions';
 import env from "react-dotenv";
 import { useTranslation } from 'react-i18next';
+import { Colors } from '../../../shared/styles/Colors';
 
 const Login: React.FC = () => {
   const dispatch = useDispatch();
@@ -100,7 +101,7 @@ const Input = styled.input`
 `;
 
 const SubmitButton = styled.button`
-  background-color: #e91e63;
+  background-color: ${Colors.primary};
   color: #fff;
   border: none;
   padding: 12px 24px;
@@ -109,7 +110,7 @@ const SubmitButton = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #d81b60;
+    background-color: ${Colors.secondary};
   }
 `;
 

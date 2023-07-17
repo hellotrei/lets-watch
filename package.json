@@ -61,7 +61,7 @@
     ]
   },
   "react-dotenv": {
-    "whitelist": ["OMDB_API_KEY", "OMDB_API_BASE_URL", "ACCESS_TOKEN", "USERNAME", "PASSWORD"]
+    "whitelist": ["OMDB_API_KEY", "OMDB_API_BASE_URL", "ACCESS_TOKEN","DEFAULT_SEARCH_QUERY", "USERNAME", "PASSWORD"]
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7",

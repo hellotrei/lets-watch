@@ -20,20 +20,17 @@ class Button extends React.PureComponent<ButtonProps> {
 }
 
 const ButtonContainer = styled.button`
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
+    background-color: ${Colors.primary};
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
     font-size: 16px;
-    text-transform: uppercase;
-    line-height: 100%;
-    align-items: center;
-    text-align: center;
-    border-radius: 4px;
-    outline: none;
-    color: white;
-    background-color: ${Colors.darkRed};
-    padding: 5px 10px;
-    width: fit-content;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+    background-color: ${Colors.secondary};
+    }
 `;
 
 export { Button };
