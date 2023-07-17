@@ -49,8 +49,8 @@
 ## About The Project
 
 [![Product Name Screen Shot 1][product-screenshot-1]](https://github.com/hellotrei)
-[![Product Name Screen Shot 2][product-screenshot]-2](https://github.com/hellotrei)
-[![Product Name Screen Shot 3][product-screenshot]-3](https://github.com/hellotrei)
+[![Product Name Screen Shot 2][product-screenshot-2]](https://github.com/hellotrei)
+[![Product Name Screen Shot 3][product-screenshot-3]](https://github.com/hellotrei)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
