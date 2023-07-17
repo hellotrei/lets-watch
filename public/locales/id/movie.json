@@ -1,0 +1,12 @@
+{
+    "like": "Suka",
+    "unlike": "Tidak Suka",
+    "year": "Tahun",
+    "type": "Tipe",
+    "released": "Lançamento",
+    "genre": "Genre",
+    "director": "Direktur",
+    "imdbRating": "Penilaian IMDB",
+    "description": "Deskripsi",
+    "notFound": "Tidak Ditemukan"
+}
